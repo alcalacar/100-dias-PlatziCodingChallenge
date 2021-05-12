@@ -1,0 +1,30 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: antiquewhite;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    align-self: center;
+    align-items: center;
+}
+p {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  background-color: rgb(58, 48, 48);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #ddd;
+}
+p::before {
+  content: "|";
+  color: red;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
