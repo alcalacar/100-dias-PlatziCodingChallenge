@@ -15,6 +15,7 @@ body {
 li,a {
 text-decoration:none;
 list-style-type:none;
+color:black;
 }
 a:visited {
 text-decoration:none;
